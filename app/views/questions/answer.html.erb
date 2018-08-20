@@ -1,0 +1,14 @@
+
+<h1 class="title">Stupid Coach</h1>
+
+<div class="message">
+  <p><%=@question.capitalize %></p>
+  <p class="person">-You</p>
+</div>
+<div class="message answer">
+  <p><%= @answer %></p>
+  <p class="person">-Your coach</p>
+</div>
+
+
+<%= link_to "Ask a new question", ask_path %>
